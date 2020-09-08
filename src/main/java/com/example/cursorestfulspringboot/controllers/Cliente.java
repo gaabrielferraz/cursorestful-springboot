@@ -6,6 +6,3 @@ public class Cliente {
     public String endereco;
     public double saldo;
 }
-
-
-
