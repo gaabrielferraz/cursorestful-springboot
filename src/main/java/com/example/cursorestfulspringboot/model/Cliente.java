@@ -1,5 +1,8 @@
 package com.example.cursorestfulspringboot.model;
 
+
+
+
 public class Cliente {
     private int id;
     private String nome;
@@ -40,4 +43,6 @@ public class Cliente {
 
     
 }
+
+
 
