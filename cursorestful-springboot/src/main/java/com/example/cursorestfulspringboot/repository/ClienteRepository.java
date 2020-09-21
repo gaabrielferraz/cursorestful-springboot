@@ -13,19 +13,19 @@ public class ClienteRepository {
 
     @PostConstruct
     public void init() {
-        Cliente c1 = new Cliente();
+        final Cliente c1 = new Cliente();
         c1.setId(1);
         c1.setNome("Jose");
         c1.setEndereco("Rua X, 99");
         c1.setSaldo(202.0);
 
-        Cliente c2 = new Cliente();
+        final Cliente c2 = new Cliente();
         c2.setId(2);
         c2.setNome("Maria");
         c2.setEndereco("Rua Y, 59");
         c2.setSaldo(444.0);
 
-        Cliente c3 = new Cliente();
+        final Cliente c3 = new Cliente();
         c3.setId(3);
         c3.setNome("Fernanda");
         c3.setEndereco("Rua W, 33");
